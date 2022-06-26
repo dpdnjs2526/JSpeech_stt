@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <title>Thursday</title>
+    <script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+    <script src="libraries/p5.js" type="text/javascript"></script>
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="libraries/p5.sound.js" type="text/javascript"></script>
+    <script src="libraries/p5.speech.js"></script>
+    <script src="sketch.js" type="text/javascript"></script>
+
+    <style>
+        body {
+            text-align: center;
+
+            padding: 0;
+            margin: 0;
+        }
+
+        canvas {
+            vertical-align: top;
+        }
+
+        .button_home {
+            width: 100px;
+            height: 25px;
+            width: 250px;
+            font-size: 25px;
+            text-align: center;
+            left: 50%;
+            top: 50%;
+            display: inline;
+            padding: 40px 40px;
+            background-image: url(./translate_stop_btn.png);
+            background-color: transparent;
+            background-position: 0px 0px;
+            vertical-align: middle;
+            background-repeat: no-repeat;
+            border: none;
+            cursor: pointer;
+            height: 16px;
+            padding-left: 16px;
+
+            margin: auto;
+            display: block;
+        }
+    </style>
+</head>
+  <body style="align-items: center; ">
+      <h1 class="logo">
+      </h1>
+      <h3>AR 수어 통엽 앱 - 목요일</h3>
+      <textarea style="resize:none;" rows="4" cols="50" id="haninput"></textarea>
+      <p id="output2"></p>
+      <p id="output"></p>
+      <button style="margin-top: 120px;" type="button" class="button_home" onClick="location.href='main.html'"></button>
+  </body>
+</html>
